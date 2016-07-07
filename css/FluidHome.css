@@ -1,0 +1,231 @@
+/*===================================================================================
+=====================================================================================
+===================================================================================*/
+
+@media (max-width: 700px) { 
+
+.logo{
+	margin-top:1.5em;
+	margin-left: 3em;
+	position:absolute;
+	width:10em;
+	height:5em;
+}
+
+.image{
+	background-color: #72c02c;
+	border-bottom: solid 4px #72c02c;
+	border-top: solid 4px #72c02c;
+}
+
+.image img{
+	width:80%;
+	height:40%;
+}
+
+#caption{
+	margin-top:6em;
+	margin-left:4em;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	font-family:'Quikhand';
+	font-size: 18px;
+}
+
+#login{
+	margin-top:3em;
+	margin-left:3em;
+}
+
+a{
+  	font-size: 11px;
+}
+
+.small{
+	margin-top: 2em;
+	font-size: 24px;
+	line-height: 1.6;
+}
+
+#click1{
+	margin-left: 40%
+}
+
+#passgen{
+	margin-left: 35%;	
+}
+
+.set{
+	list-style-type: none;
+}
+
+.set>li{
+	display:inline-block;
+	
+}
+
+.center{
+	text-align: center;
+}
+
+
+.small{
+	text-align: center;
+}
+
+.btn-success{
+ 	text-align: center;
+ 	background-color: #72c02c;
+ 	border-radius: 5px;
+ 	font-size: 14px;
+ 	padding: 6px 12px;
+ }
+
+/*block description*/
+
+.block{
+	padding:12px ;
+	width:90%;
+	height:40%;
+	margin-left: 5%;
+}
+
+.block:hover{
+	box-shadow:0 0 3px 2px #eaeaea;
+}
+
+h2{
+	line-height: 1.6;
+	font-size: 18px;
+}
+
+.block p{
+	text-align: left;
+	color: #555;
+	margin-right: 10px;
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+.icons{
+	float:left;
+	color: #72c02c;
+	font-size: 35px; /*increases logo ki size*/
+	padding:10px 30px 200px 0; /*logo pushes itself 10px in from each side increasing its size*/
+}
+.block:hover .icons{
+	color: #585f69;
+}
+
+.space{
+	margin-left:-30px;
+	margin-top:30px;
+}
+
+
+.line{
+	border-bottom: dotted 2px rgba(0,0,0,0.2);
+	
+}
+.line li{
+/*	margin-left: -40px;*/
+	border-bottom:solid 2px #72c02c;
+	margin-bottom: -2px;
+}
+
+.blockss{
+	width:200px;
+	height:90px;
+	padding:5px;	
+}
+
+.blocks{
+	margin-bottom: 20px;
+	padding:10px;
+	width:100%;
+	height:300px;
+}
+
+.form-control{
+	border-radius: 5px;
+	width:150px;
+	height: 25px;
+	padding:5px;
+
+}
+
+.change>li{
+	padding-left: 20px;
+}
+
+.item .set>li{
+	width:65px;
+	height: 50px;	
+}
+
+.img{
+	width:50px;
+	height:48px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.footer .line{
+	border-bottom: dotted 1px white;
+}
+
+.footer p{
+ 	color:#dadada;
+ 	font-size: 14px;
+ 	line-height: 1.6;
+}
+
+/*=========LOGIN==============*/
+
+.pop-upbox{
+	top:3%;
+	left:10%;
+	width:80%;
+	z-index: 10;
+	margin-left: 0;
+	
+}	
+.pop-upbox table{
+	float: left;
+	margin-top: 1%;
+}
+.pop-upbox h2{
+	color: #72c02c;
+	word-spacing: 3px;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+.pop-upbox table td{
+	padding:5px;
+	font-family: 'Oregon LDO';
+	color:#666;
+	font-size: 15px;
+}
+
+.pop-upbox .fa-times{
+	font-size: 20px;
+}
+
+.jumbotron {
+	padding: 20px;
+	padding-bottom: 0;
+	margin-bottom: 30px;
+	font-family: 'Oregon LDO';
+	color:rgb(146, 45, 101);
+	font-size: 15px;
+	font-style: italic;
+	background-color: transparent;
+}
+
+.pop-upbox .btn{
+	margin-left: 25%;
+	background: transparent;
+	color:#222;
+	border-color: #5cb85c;
+}

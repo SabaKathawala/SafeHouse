@@ -1,0 +1,179 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../fonts/fonts/FontAwesome.otf");
+	src: url("../fonts/fonts/Oregon LDO.ttf");
+	font-family:'Oregon LDO';
+  }
+
+
+body{
+  font-family: 'Oregon LDO';
+}
+
+
+.menu{
+    text-align: left;
+    display: inline-block;
+    border-right: solid 4px #72c02c;
+}
+  
+.menu>li{
+  border-bottom:#eaeaea;
+  padding: 60px 40px 0 20px;
+  width:150%; 
+  color:#72c02c;
+  display: block;
+  letter-spacing: 2px;
+}
+
+.mymenu i{
+    font-size: 20px;
+    color:#72c02c;
+}
+
+.mymenu span{
+    font-family: 'Oregon LDO';
+    color:#323232;
+    font-weight: bold;
+    cursor: hand;
+    font-size: 20px;
+}
+
+.mymenu span:hover
+{
+    color:#72c02c;
+    background-color: transparent;  
+}
+
+.fa {
+display: inline-block;
+font-family: 'FontAwesome';
+font-style: normal;
+font-weight: normal;
+line-height: 1;
+}
+
+#overlay{
+	display: none;
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color: rgba(0,0,0,0.1);
+	z-index: 10;
+}
+
+.pop-upbox{
+	padding: 10px;
+	position:absolute;
+	display: none;
+	left:39%;
+	top:18%;
+	width:1000px;
+	z-index: 10;
+	background-color: white;
+	margin-left:-350px;
+	margin-top: -100px;
+	border:solid 10px #5cb85c;
+	border-radius: 5px;
+	
+}	
+.pop-upbox table{
+	float: left;
+	margin-top: 20px;
+}
+.pop-upbox h2{
+	/*font-family: 'Quikhand';*/
+	color: #72c02c;
+	word-spacing: 3px;
+	letter-spacing: 2px;
+}
+
+
+.pop-upbox table td{
+	padding:5px;
+	font-family: 'Oregon LDO';
+	color:#666;
+	font-size: 22px;
+	/*font-weight: bold;*/
+}
+
+.form-control{
+	width:300px;
+	height:40px;
+	border: 1px solid #A79F9F;
+	background: transparent;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.pop-upbox .btn{
+	background: transparent;
+	color:#222;
+	border-color: #5cb85c;
+	width:120px;
+	height:40px;
+	font-size: 22px;
+}
+
+.pop-upbox .btn:hover{
+	background:#72c02c;
+	color:white;
+	/*border-color: #A79F9F;*/
+}
+
+.pop-upbox .fa-times{
+	color:#5cb85c;
+	font-size: 22px;
+}
+
+
+
+.format img{
+	width:125px;
+	height:125px;
+}
+
+.format{
+	display:none;
+	margin-top: 100px;
+	margin-left: 20px;
+	font-family: 'Oregon LDO';
+}
+
+.icons img{
+	width:40%;
+	height:20%;
+}
+
+
+.icons li{
+	margin-top: 30px;
+	border-left: none;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.format div.active{
+	display:block;
+}
+
+.edit_blocks table
+{
+      margin-top: 30px;
+}
+
+.edit_blocks .btn{
+	background-color: #72c02c;
+	font-size: 18px;
+}
+
+.edit_blocks table td
+{
+	padding-bottom: 20px;
+	padding-right: 20px;
+	color:#222;
+	word-spacing: 4px;
+	text-align: justify;
+}
